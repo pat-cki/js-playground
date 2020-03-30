@@ -24,4 +24,4 @@
 function findOddNames(list) {
   return list.filter(dev => dev.firstName.split('')
              .reduce((total, a) => total + a.charCodeAt(0), 0) % 2 !== 0 ) 
- }
+q}
